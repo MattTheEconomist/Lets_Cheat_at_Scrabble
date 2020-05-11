@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scrabble Cheater</title>
+  <!-- <link rel="stylesheet" href="typeAhead.css"> -->
+</head>
+<style>
+  body{
+    background: #ffc600;
+  }
+  input{
+    width: 50%; 
+    padding: 20px; 
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.12);
+    font-size: large;
+  }
+  li{
+    background:white; 
+    display: flex; 
+    justify-content: space-between;
+    width: 25%;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  }
+  
+</style>
+<body>
+  <h1>Let's Cheat at Scrabble!</h1>
+  <form class="search-form">
+    <input type="text" class="search" placeholder="Enter Your Letters">
+    <div class="recep"></div>
+    <ul class="suggestions">
+    </ul>
+  </form>
+
+<div class="hiddenWords">
+
+</div>
+<script src="scrabble.js">
+</script>
+</body>
+</html>
